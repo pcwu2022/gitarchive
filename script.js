@@ -25,7 +25,7 @@ try {
 
 
 bt.addEventListener('click', () => {
-  location.href = '/rick.html';
+  location.href = '/gitarchive/rick.html';
 });
 
 setTimeout(() => {
