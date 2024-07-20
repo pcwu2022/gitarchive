@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rick Roll</title>
+    <meta charset='utf-8'>
+    <meta viewport='width=device-width'>
+    <style>
+      html {
+        background-color: black;
+        padding: 0px;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id = "ifr" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- <iframe id = "ifr" src="https://www.youtube.com/embed/rQLkerwBoGw?t=66&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <script>
+      let ifr = document.getElementById("ifr");
+      ifr.style.width = window.innerWidth + "px";
+      ifr.style.height = window.innerWidth*315/560 + "px";
+      console.log(window.innerwidth);
+    </script>
+  </body>
+</html>
